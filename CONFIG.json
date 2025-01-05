@@ -56,8 +56,8 @@
          ],
          "action_buttons":[
             {
-               "label":"View Projects",
-               "route":"/projects",
+               "label":"View My CV",
+               "route":"https://drive.google.com/drive/folders/1yxA-3delNRbyam2iXwkgFUOYaj7wUy_F?usp=sharing",
                "style":"primary"
             },
             {
