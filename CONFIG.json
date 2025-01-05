@@ -1,0 +1,267 @@
+{
+   "siteMetadata":{
+      "title":"Portfolio - Bunheng",
+      "description":"Portfolio page by max1mde"
+   },
+   "global":{
+      "font":"roboto",
+      "home_route":"/home",
+      "custom_cursor":{
+         "enabled":false,
+         "sparkles":true,
+         "transitions":true,
+         "move_speed":0.05
+      }
+   },
+   "footer":{
+      "text":"© 2025 Bunheng - All rights reserved.",
+      "links":[
+         {
+            "label":"GitHub",
+            "url":"https://github.com/BunhengG"
+         },
+         {
+            "label":"Contact",
+            "url":"/contact"
+         },
+         {
+            "label":"Privacy",
+            "url":"/privacy"
+         }
+      ]
+   },
+   "pages":{
+      "home":{
+         "enabled":true,
+         "header":"Hello, my name is Bunheng!",
+         "route":"/home",
+         "profile_image":"https://avatars.githubusercontent.com/u/143855189?s=400&u=e27b6614a10d506c1f42d112f004c2075e92a47f&v=4",
+         "about_me":"About Me",
+         "description":"I like to find something new and bring random ideas to reality.",
+         "tools_languages_title":"Tools & Languages",
+         "languages":[
+            "Java",
+            "JavaScript",
+            "TypeScript",
+            "Flutter"
+         ],
+         "tools":[
+            "Next.js",
+            "Supabase",
+            "Figma",
+            "MongoDB",
+            "SQL",
+            "Firebase",
+            "Git"
+         ],
+         "action_buttons":[
+            {
+               "label":"View Projects",
+               "route":"/projects",
+               "style":"primary"
+            },
+            {
+               "label":"Telegram",
+               "route":"https://t.me/hengKhunNathip",
+               "style":"secondary"
+            }
+         ],
+         "experience":{
+            "enabled":true,
+            "title":"My Experience",
+            "list":[
+               {
+                  "title":"Mobile App Developer",
+                  "company":"University of South-East Asia",
+                  "date":"2023 - Present",
+                  "description":"Experienced Mobile App Developer skilled in Flutter framework. Proficient in API integration, state management, and geolocation services. Experienced in implementing QR code scanning and attendance tracking systems. Passionate about creating seamless and user-friendly mobile experiences.",
+                  "side":"left"
+               },
+               {
+                  "title":"Web Developer",
+                  "company":"Memior Palace Hotel & Reshort",
+                  "date":"2022 - June 2022 (Because of Covid Virus)",
+                  "description":"Skilled Web Developer with experience in building responsive websites and backend systems. Proficient in Node.js, Express, and API integration, with a focus on delivering efficient and user-friendly web solutions.",
+                  "side":"right"
+               },
+               {
+                  "title":"Web Developer",
+                  "company":"EOT",
+                  "date":"2021 - 2022",
+                  "description":"Skilled WordPress Developer with experience in designing and customizing websites, themes, and plugins. Proficient in creating responsive, user-friendly, and SEO-optimized web solutions.",
+                  "side":"left"
+               }
+            ]
+         }
+      },
+      "projects":{
+         "enabled":true,
+         "header":"My Projects",
+         "route":"/projects"
+      },
+      "contact":{
+         "enabled":true,
+         "header":"Socials",
+         "route":"/contact",
+         "email":"maibunheng@gmail.com",
+         "direct_contact":"Reach Me Directly",
+         "legal":{
+            "enabled":true,
+            "name":"Bunheng",
+            "address":"Phnom Penh, Steung meanchey I",
+            "email":"maibunheng@gmail.com",
+            "phone":"+855 96 670 2883",
+            "tax_id":"Not Applicable",
+            "legal_disclaimer":"This is a personal portfolio website for informational purposes."
+         },
+         "social_links":[
+            {
+               "name":"GitHub",
+               "url":"https://github.com/BunhengG",
+               "icon":"github"
+            },
+            {
+               "name":"TikTok",
+               "url":"https://www.tiktok.com/@hengcoding?_t=ZS-8so1N9mPqWg&_r=1",
+               "icon":"tiktok"
+            },
+            {
+               "name":"LinkedIn",
+               "url":"https://www.linkedin.com/in/bunheng-mai-31200a205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+               "icon":"linkedin"
+            }
+         ],
+         "contact_form":{
+            "enabled":true,
+            "send_button":"Send Message",
+            "success_message":"Message sent successfully!",
+            "failure_message":"Failed to send message. Please try again.",
+            "error_message":"An error occurred. Please try again.",
+            "fields":[
+               {
+                  "name":"name",
+                  "label":"Your Name",
+                  "type":"text",
+                  "required":true
+               },
+               {
+                  "name":"email",
+                  "label":"Your Email",
+                  "type":"email",
+                  "required":true
+               },
+               {
+                  "name":"message",
+                  "label":"Your Message",
+                  "type":"textarea",
+                  "required":true
+               }
+            ]
+         }
+      },
+      "privacy":{
+         "enabled":false,
+         "header":"Privacy Policy",
+         "route":"/privacy",
+         "content":{
+            "contact_title":"Contact",
+            "contact":"maibunheng@gmail.com",
+            "introduction":"",
+            "sections":[
+               {
+                  "title":"Information Collection",
+                  "description":"We collect the following types of information:",
+                  "details":[
+                     "Name, email, and message content submitted through the contact form",
+                     "IP address for rate limiting and security purposes",
+                     "Potential tracking of client-side interactions for website functionality"
+                  ]
+               },
+               {
+                  "title":"Data Processing and Storage",
+                  "description":"Data collection and processing details:",
+                  "details":[
+                     "Contact form submissions are processed in-memory and not permanently stored",
+                     "IP addresses are temporarily tracked for rate limiting (Bunhengum 30 minutes)",
+                     "No persistent user data is saved or stored long-term"
+                  ]
+               },
+               {
+                  "title":"Third-Party Services",
+                  "description":"Potential data collection by third-party services:",
+                  "details":[
+                     "Image hosting services (e.g., shields.io) may collect IP address during image requests",
+                     "Standard browser and server logs may capture additional metadata"
+                  ]
+               },
+               {
+                  "title":"Data Protection",
+                  "description":"We implement the following protection measures:",
+                  "details":[
+                     "Rate limiting to prevent abuse of contact form",
+                     "Validation of submitted form data",
+                     "No storage of sensitive personal information"
+                  ]
+               },
+               {
+                  "title":"User Rights",
+                  "description":"Users have the right to:",
+                  "details":[
+                     "Request information about data collection",
+                     "Request deletion of any potential stored information",
+                     "Opt-out of non-essential data collection"
+                  ]
+               }
+            ]
+         }
+      }
+   },
+   "card":{
+      "pop_in":true,
+      "hover_effect":true,
+      "hover_glow":true,
+      "image_shine":true
+   },
+   "cards":[
+      {
+         "title":"University of South-East Asia",
+         "description":"Responsive, Information website built with PHP and MySQL.",
+         "imageSRC":"/images/projects/image.png",
+         "buttonText":"View on Live Site",
+         "buttonURL":"https://www.usea.edu.kh/en/Pages/index.php",
+         "badges":[
+            "https://img.shields.io/github/stars/max1mde/portfolio.svg?style=flat"
+         ]
+      },
+      {
+         "title":"YuanShenGangko",
+         "description":"Responsive, Product website built with WordPress and MySQL.",
+         "imageSRC":"/images/projects/pj2.png",
+         "buttonText":"View on Live Site",
+         "buttonURL":"https://yuanshengangkor.com/",
+         "badges":[
+            "https://img.shields.io/github/stars/max1mde/fancy-readme-stats.svg?style=flat"
+         ]
+      },
+      {
+         "title":"USEA Career Center",
+         "description":"System, responsive, website built with NextJS and MongoDB.",
+         "imageSRC":"/images/projects/pj3.png",
+         "buttonText":"View on GitHub",
+         "buttonURL":"#",
+         "badges":[
+            "https://img.shields.io/github/stars/max1mde/HologramAPI.svg?style=flat"
+         ]
+      },
+      {
+         "title":"USEA APP",
+         "description":"Helpful for students to check their attendances, build with Flutter(Dart).",
+         "imageSRC":"/images/projects/pj4.png",
+         "buttonText":"Join the Discord",
+         "buttonURL":"https://apps.apple.com/kh/app/university-of-south-east-asia/id6469110623?platform=iphone",
+         "badges":[
+            "https://img.shields.io/discord/1051758423211003951"
+         ]
+      }
+   ]
+}
