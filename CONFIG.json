@@ -257,8 +257,18 @@
          "title":"USEA APP",
          "description":"Helpful for students to check their attendances, build with Flutter(Dart).",
          "imageSRC":"/images/projects/pj4.png",
-         "buttonText":"Join the Discord",
+         "buttonText":"View on GitHub",
          "buttonURL":"https://apps.apple.com/kh/app/university-of-south-east-asia/id6469110623?platform=iphone",
+         "badges":[
+            "https://img.shields.io/discord/1051758423211003951"
+         ]
+      },
+      {
+         "title":"Check Attendance",
+         "description":"Helpful for Staff to check In/Out their attendances by QR Scan, build with Flutter(Dart).",
+         "imageSRC":"/images/projects/pj5.png",
+         "buttonText":"View on GitHub",
+         "buttonURL":"#",
          "badges":[
             "https://img.shields.io/discord/1051758423211003951"
          ]
